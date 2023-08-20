@@ -1,0 +1,101 @@
+*
+{
+    box-sizing: border-box;
+    font-family: League Spartan;
+    padding: 0px;
+    margin: 0px;
+}
+.content
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* align-content: center; */
+    margin-top: 50px
+}
+.content1
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: flex-start;
+}
+.para
+{
+    font-size: 50px;
+    font-weight: 700;
+    width: 350px;
+    line-height: 40px;
+    margin-bottom: 40px;
+    color: #511f50;
+}
+.content1 p
+{
+    font-size: 20px;
+    width: 450px;
+    height: 60px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #928692;
+}
+.cards1
+{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: #f7f2f8;
+    padding: 20px;
+    width: 450px;
+    margin:20px;
+    flex-direction: row;
+}
+.images
+{
+    padding-right: 40px;
+    margin-left: 20px;
+}
+.div
+{
+    font-weight: 700;
+    font-size: 18px;
+    color: #511f50;
+}
+.content3
+{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 80px;
+}
+.card
+{
+    width: 400px;
+    height: 230px;
+    background-color: #511f50;
+    margin: 30px 15px 15px 15px;
+    border-radius: 15px;
+}
+.card img
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin:30px  20px;
+}
+.name1
+{
+    font-weight: 700;
+    color: white;
+}
+.name2
+{
+    font-weight: 500;
+    color: #ad5e92;
+}
+.card p
+{
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
